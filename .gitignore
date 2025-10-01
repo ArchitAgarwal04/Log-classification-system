@@ -3,6 +3,12 @@ myenv/
 venv/
 env/
 
+# PyTorch specific files
+**/torch/lib/
+**/torch_cpu.dll
+**/dnnl.lib
+**/kineto.lib
+
 # Python cache files
 __pycache__/
 *.py[cod]
